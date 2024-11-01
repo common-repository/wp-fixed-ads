@@ -1,0 +1,25 @@
+#madmas_left_fx {
+position: fixed;
+left: 0;
+top: 100px;
+width:160px;
+}
+#madmas_right_fx {
+position: fixed;
+right: 0;
+top: 100px;
+width:160px;
+text-align:right;
+}
+@media screen only and (max-width:1200px){
+#madmas_left_fx,#madmas_right_fx{display:none;}
+}
+@media (max-width:1300px){
+#madmas_left_fx,#madmas_right_fx{width:120px;}
+}
+@media (max-width:1400px){
+#madmas_left_fx,#madmas_right_fx{width:160px;}
+}
+@media (min-width:1600px){
+#madmas_left_fx,#madmas_right_fx{width:300px;}
+}
